@@ -1,0 +1,456 @@
+<mjml>
+  <mj-head>
+    <mj-title>Corsaza</mj-title>
+
+    <mj-attributes>
+      /* MJML Text Base */
+      <mj-text font-family="Arial, Raleway, sans-serif" font-size="14px" font-weight="400" font-style="narmal" />
+
+      /* Font colors Base */
+      <mj-class name="light" color="#fff" />
+      <mj-class name="dark" color="#000" />
+
+      /* Background colors Base */
+      <!-- <mj-class name="bg-light" background-color="#fff" /> -->
+      <!-- <mj-class name="bg-dark" background-color="#000" /> -->
+      <mj-class name="bg-body" background-color="#121212"/>
+      <mj-class name="bg__footer" background-color="#121212" />
+
+      /* Font styles */
+      <mj-class name="fontSize-12" font-size="12px" line-height="16px" font-weight="400" />
+      <mj-class name="fontSize-16" font-size="16px" line-height="24px" font-weight="400" />
+      <mj-class name="fontSize-18" font-size="18px" line-height="28px" font-weight="700" />
+      <mj-class name="fontSize-24" font-size="24px" line-height="32px" font-weight="700" /> 
+
+      /* Font colors ui */
+      <!-- <mj-class name="primary" color="#00BD79" />
+      <mj-class name="secondary" color="#515E81" /> -->
+
+      /* Background colors ui*/
+      <!-- <mj-class name="bg-wrapper" background-color="#010028" /> -->
+
+      /* MJML Button */
+      <mj-button font-family="Arial, Raleway, sans-serif" font-size="14px" line-height="20px" font-weight="700" color="#fff" width="220px" background-color="#0FBE6A" border="2px solid #40564C" inner-padding="12px 24px" border-radius="12px" padding="0" target="_blank" />
+
+      /* MJML Attributes */
+      <mj-text padding="0" />
+      <mj-image padding="0" />
+      <mj-column padding="0" />
+      <mj-wrapper padding="0" />
+      <mj-section padding="0" />
+
+      <mj-class name="padding-wrapper-top" padding-top="24px" />
+      <mj-class name="padding-section" padding="0 10px 24px" />
+      <mj-class name="padding-section-bottom" padding-bottom="24px" />
+
+      <mj-class name="divider" border-color="transparent" border-width="1px" padding="20px 0 20px 0" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .mx-12 {
+        margin-left: 12px !important;
+        margin-right: 12px !important;
+      }
+
+      .mx-5 {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+      }
+
+      .mr-5 {
+        margin-right: 5px !important;
+      }
+
+      .bg_card {
+        background-color: #121212 !important;
+        border: 1px solid #1D1D1D !important;
+        border-radius: 20px !important;
+        border-collapse: initial !important;
+      }
+
+      .bonus-steps {
+        background-color: #121212 !important;
+        width: 96% !important;
+        border-radius: 20px !important;
+        border: 1px solid #1D1D1D !important;
+        border-collapse: initial !important;
+      }
+
+      .bonus-steps td {
+        display: block !important;
+        margin: 0 auto !important;
+        border-radius: 12px !important;
+      }
+
+      .bonus-steps-item-1 {
+        width: 17% !important;
+        max-width: 17% !important;
+      }
+
+      .bonus-steps-item-2 {
+        width: 67% !important;
+        max-width: 67% !important;
+      }
+
+      .padding-section {
+        padding: 0 10px 24px !important;
+        
+      }
+
+      .footer-img {
+        padding: 25px 0 30px 0 !important;
+      }
+
+      .footer-unsubscribe {
+        padding: 35px 10px !important;
+      }
+
+      .footer-copyright {
+        padding: 25px 0 30px 0 !important;
+
+      }
+    </mj-style>
+
+    <mj-style>
+      @media (max-width: 480px) {
+
+        .margin,
+        .mr-5 {
+          margin: 12px 0 !important;
+        }
+
+        .mx-12 {
+          margin: 10px 0 !important;
+        }
+
+        .text_block div {
+          text-align: center !important;
+          padding-left: 0px !important;
+        }
+
+        .card-item-btn table {
+          width: 220px !important;
+        }
+
+        .card-item-btn a {
+          width: 220px !important;
+        }
+
+        .spin-text-center {
+          margin-bottom: 15px !important;
+        }
+
+        .spin-text-center div {
+          width: auto !important;
+          margin-top: 5px !important;
+          text-align: center !important;
+          padding: 0 !important;
+        }
+
+        .spin-text-center td {
+          padding: 0 !important;
+        }
+
+        .bonus-steps-item-1 {
+          width: 25% !important;
+          max-width: 25% !important;
+        }
+
+        .bonus-steps-item-2 {
+          width: 65% !important;
+          max-width: 65% !important;
+        }
+        
+        .footer-img,
+        .footer-unsubscribe {
+          width: auto !important;
+        }
+
+        .footer-img {
+          padding: 20px 0 15px 0 !important;
+        }
+
+        .footer-copyright {
+          padding: 20px 0 20px !important;
+          width: 300px !important;
+        }
+
+        .footer-copyright div {
+          text-align: center !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body mj-class="bg-body">
+    <!--Main-->
+    <mj-wrapper mj-class="bg-wrapper padding-wrapper-top" background-url="https://files.catbox.moe/e3ouj2.webp"
+      background-repeat="no-repeat"
+      background-size="cover"
+      background-position="center center">
+
+      <mj-section full-width="full-width" mj-class="padding-section" padding-bottom="8px">
+        <mj-column width="100%">
+          <!-- Logo Img -->
+          <mj-image src="./img/logo.png" width="160px" alt="Logo" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section full-width="full-width" mj-class="padding-section">
+        <mj-column width="100%" padding-bottom="24px">
+          <!--Banner Img-->
+          <mj-image src="./img/banner.png" href="https://www.google.com.ua/?hl=uk" target="_blank" alt="Banner" />
+        </mj-column>
+
+        <mj-column width="100%">
+          <mj-button href="https://mjml.io">
+            <!--Button-->
+            Get Bonus
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section full-width="full-width" mj-class="padding-section">
+        <mj-column width="100%">
+          <mj-text  mj-class="fontSize-16 light" align="left">
+            <!--Text-->
+            Hello, <span style="font-weight: 700; color: #FFC700;">[UserName],</span>
+          </mj-text>
+
+          <mj-text align="left" mj-class="fontSize-16 light">
+            <!--Text-->
+            Looking for exciting bonuses to boost your winnings? Look no further than our incredible offers up to 50% deposit bonus and 70 free spins! With these amazing deals, your rewards will start pouring in from the moment you sign up. Don't miss out on this opportunity to hit the jackpot and win big today!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section full-width="full-width" mj-class="padding-section">
+        <mj-column css-class="bg_card" width="31%" padding="16px 6px">
+          <!--BANNER IMG-->
+          <mj-image src="./img/game-balls.jpg" width="80px" height="43px" padding="0 0 4px" alt="money" />
+
+          <mj-text align="center" mj-class="fontSize-16 light" font-weight="700">
+            <!--Text-->
+            BONUS 20 %
+          </mj-text>
+
+          <mj-text align="center" mj-class="fontSize-16 light" font-weight="700">
+            <!--Text-->
+            +60 Freespins
+          </mj-text>
+
+          <mj-text align="center" mj-class="fontSize-12 light" padding-bottom="12px">
+            <!--Text-->
+            in game
+            <br>
+            <span style="color: #FFC700; text-decoration: underline;">Yakozuna Clash and Ka..</span>
+          </mj-text>
+
+          <mj-text mj-class="fontSize-12 light" align="center" padding-bottom="4px">
+            <!--Text-->
+            Bonus Code:
+          </mj-text>
+
+          <mj-button href="https://mjml.io" target="_blank" width="140px" padding="0" css-class="card-item-btn" background-color="#2F2F3D" border="0"  color="#FFFFFF"  font-size="14px" inner-padding="8px 24px">
+            <!--Button-->
+            Reactoonz_1
+          </mj-button>
+        </mj-column>
+
+        <mj-column css-class="bg_card mx-12" width="31%" padding="16px 6px">
+          <!--BANNER IMG-->
+          <mj-image src="./img/game-balls.jpg" width="80px" height="43px" padding="0 0 4px" alt=" money" />
+
+          <mj-text align="center" mj-class="fontSize-16 light" font-weight="700">
+            <!--Text-->
+            BONUS 20 %
+          </mj-text>
+
+          <mj-text align="center" mj-class="fontSize-16 light" font-weight="700">
+            <!--Text-->
+            +60 Freespins
+          </mj-text>
+
+          <mj-text align="center" mj-class="fontSize-12 light" padding-bottom="12px">
+            <!--Text-->
+            in game
+            <br>
+            <span style="color: #FFC700; text-decoration: underline;">Yakozuna Clash and Ka..</span>
+          </mj-text>
+
+          <mj-text mj-class="fontSize-12 light" align="center" padding-bottom="4px">
+            <!--Text-->
+            Bonus Code:
+          </mj-text>
+
+          <mj-button href="https://mjml.io" target="_blank" width="140px" padding="0" css-class="card-item-btn" background-color="#2F2F3D" border="0" color="#FFFFFF"  font-size="14px" inner-padding="8px 24px">
+            <!--Button-->
+            Reactoonz_1
+          </mj-button>
+        </mj-column>
+
+
+        <mj-column css-class="bg_card" width="31%" padding="16px 6px">
+          <!--BANNER IMG-->
+          <mj-image src="./img/game-balls.jpg" width="80px" height="43px" padding="0 0 4px" alt=" money" />
+
+          <mj-text align="center" mj-class="fontSize-16 light" font-weight="700">
+            <!--Text-->
+            BONUS 20 %
+          </mj-text>
+
+          <mj-text align="center" mj-class="fontSize-16 light" font-weight="700">
+            <!--Text-->
+            +60 Freespins
+          </mj-text>
+
+          <mj-text align="center" mj-class="fontSize-12 light" padding-bottom="12px">
+            <!--Text-->
+            in game
+            <br>
+            <span style="color: #FFC700; text-decoration: underline;">Yakozuna Clash and Ka..</span>
+          </mj-text>
+
+          <mj-text mj-class="fontSize-12 light" align="center" padding-bottom="4px">
+            <!--Text-->
+            Bonus Code:
+          </mj-text>
+
+          <mj-button href="https://mjml.io" target="_blank" width="140px" padding="0" css-class="card-item-btn" background-color="#2F2F3D" border="0" color="#FFFFFF"  font-size="14px" inner-padding="8px 24px">
+            <!--Button-->
+            Reactoonz_1
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section full-width="full-width" padding-bottom="24px"  mj-class="padding-section">
+        <mj-column width="100%">
+          <mj-text mj-class="fontSize-16" color="#B4BED8" align="center" font-weight="700">
+            <!--TEXT-->
+            Do the following to receive a bonus
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section full-width="full-width" padding="12px" css-class="bonus-steps">
+      <mj-group>
+        <mj-column css-class="bonus-steps-item-1"  vertical-align="middle" padding="0">
+          <!--IMG GAME-->
+          <mj-image src="./img/casino.jpg" alt="step" width="64px" height="64px"  align="left" />
+        </mj-column>
+
+        <mj-column  vertical-align="middle" padding="0" css-class="bonus-steps-item-2">
+          <mj-text mj-class="fontSize-16 light" font-weight="700" align="left">
+            <!--TEXT-->
+            Step 1
+          </mj-text>
+          <mj-text mj-class="fontSize-14 " color="#B4BED8" align="left">
+            <!--TEXT-->
+            Take advantage of Bonus
+          </mj-text>
+        </mj-column>
+        </mj-group>
+      </mj-section>
+
+    <!-- BR-->
+      <mj-section padding-bottom="12px">
+        <mj-column width="100%">
+        </mj-column>
+      </mj-section>
+
+            <mj-section full-width="full-width" padding="12px" css-class="bonus-steps">
+      <mj-group>
+        <mj-column css-class="bonus-steps-item-1"  vertical-align="middle" padding="0">
+          <!--IMG GAME-->
+          <mj-image src="./img/casino.jpg" alt="step" width="64px" height="64px"  align="left" />
+        </mj-column>
+
+        <mj-column  vertical-align="middle" padding="0" css-class="bonus-steps-item-2">
+          <mj-text mj-class="fontSize-16 light" font-weight="700" align="left">
+            <!--TEXT-->
+            Step 2
+          </mj-text>
+          <mj-text mj-class="fontSize-14 " color="#B4BED8" align="left">
+            <!--TEXT-->
+            Take advantage of Bonus
+          </mj-text>
+        </mj-column>
+        </mj-group>
+      </mj-section>
+
+    <!-- BR-->
+      <mj-section padding-bottom="12px">
+        <mj-column width="100%">
+        </mj-column>
+      </mj-section>
+
+            <mj-section full-width="full-width" padding="12px" css-class="bonus-steps">
+      <mj-group>
+        <mj-column css-class="bonus-steps-item-1"  vertical-align="middle" padding="0">
+          <!--IMG GAME-->
+          <mj-image src="./img/casino.jpg" alt="step" width="64px" height="64px"  align="left" />
+        </mj-column>
+
+        <mj-column  vertical-align="middle" padding="0" css-class="bonus-steps-item-2">
+          <mj-text mj-class="fontSize-16 light" font-weight="700" align="left">
+            <!--TEXT-->
+            Step 3
+          </mj-text>
+          <mj-text mj-class="fontSize-14 " color="#B4BED8" align="left">
+            <!--TEXT-->
+            Take advantage of Bonus
+          </mj-text>
+        </mj-column>
+        </mj-group>
+      </mj-section>
+
+    <!-- BR-->
+      <mj-section padding-bottom="12px">
+        <mj-column width="100%">
+        </mj-column>
+      </mj-section>
+
+      <mj-section full-width="full-width" mj-class="padding-section" padding-bottom="40px">
+       <mj-column width="100%" padding-bottom="24px">
+          <mj-button href="https://mjml.io">
+            <!--Button-->
+            Claim
+          </mj-button>
+        </mj-column>
+
+        <mj-column width="100%">
+         <mj-text align="left" mj-class="fontSize-16 light">
+            <!--Text-->
+            To check if the offer is available and to activate the promotion, please contact our  <a href="https://mjml.io" target="_blank" style="color: #FFC700;">Live Chat 24/7</a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--Footer-->
+      <mj-section full-width="full-width"  mj-class="bg__footer">
+      <mj-raw>
+        <div style="width: 100%; height: 1px; background: #F5D36D; background: linear-gradient(270deg, rgba(245, 211, 109, 0) 0%, #F5D36D 48.96%, rgba(245, 211, 109, 0) 100%);"></div>
+      </mj-raw>
+
+        <mj-column width="44px" css-class="footer-img">
+          <!-- Logo Footer Img -->
+          <mj-image src="https://res.cloudinary.com/dvlpao67k/image/upload/v1710927404/Tahiti%20casino%20b2b/fonf3d5uyoqr7l3jkdkc.png" alt="footer-img" align="left" />
+        </mj-column>
+
+        <mj-column css-class="footer-unsubscribe">
+          <mj-text mj-class="fontSize-12" align="left">
+            <!--Text Link-->
+            <a href="https://mjml.io" style="color:#FFC700">Unsubscribe</a>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="40%" css-class="footer-copyright">
+          <mj-text mj-class="fontSize-12" color="#FFFFFF" align="right">
+            <!--Text-->
+            Gambling can be addictive. Play responsibly. 2024 © Corsaza.com All rights reserved.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
