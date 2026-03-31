@@ -199,7 +199,7 @@
       <mj-section full-width="full-width" mj-class="padding-section">
         <mj-column width="100%" padding-bottom="24px">
           <!--Banner Img-->
-          <mj-image src="./img/banner.png" href="https://www.google.com.ua/?hl=uk" target="_blank" alt="Banner" />
+          <mj-image src="./img/banner.png" href="https://mjml.io" target="_blank" alt="Banner" />
         </mj-column>
 
         <mj-column width="100%">
