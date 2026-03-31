@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>Corsaza</mj-title>
+    <mj-title>Cor</mj-title>
 
     <mj-attributes>
       /* MJML Text Base */
@@ -447,7 +447,7 @@
         <mj-column width="40%" css-class="footer-copyright">
           <mj-text mj-class="fontSize-12" color="#FFFFFF" align="right">
             <!--Text-->
-            Gambling can be addictive. Play responsibly. 2024 © Corsaza.com All rights reserved.
+            Gambling can be addictive. Play responsibly. 2024 © Cor. All rights reserved.
           </mj-text>
         </mj-column>
       </mj-section>
